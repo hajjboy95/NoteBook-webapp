@@ -1,5 +1,6 @@
-<h1>Edit your Note</h1>w
+<div class="wrapper_with_padding">
+  <%= render 'notes/form' %>
 
-<%= render 'notes/form' %>
+  <%= link_to "Cancel" , note_path(@note) %>
 
-<%= link_to "Cancel" , note_path(@note) %>
+</div>
